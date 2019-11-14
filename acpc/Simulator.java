@@ -569,10 +569,10 @@ public class Simulator {
         //Average case will be computed over this many samples
         int SIM_COUNT = 10000;
         //Maximum number of revocations during simulation (from 1 to this many)
-        int MAX_REVOCATIONS = 1000000;
+        int MAX_REVOCATIONS = 50000;
         //The number of revocations simulated will follow this step (set to 
         //1 for finer granularity)
-        int REVOCATION_STEP = 10000;
+        int REVOCATION_STEP = 100;
         //The crowd size should be this percetange of the total number of leaves
         int PERCENT_PRIVACY = 10;
         //The results will be written to this filename
@@ -625,10 +625,10 @@ public class Simulator {
         //Average case will be computed over this many samples
         int SIM_COUNT = 10000;
         //Maximum number of revocations during simulation (from 1 to this many)
-        int MAX_REVOCATIONS = 1000000;
+        int MAX_REVOCATIONS = 50000;
         //The number of revocations simulated will follow this step (set to 
         //1 for finer granularity)
-        int REVOCATION_STEP = 10000;
+        int REVOCATION_STEP = 100;
         //The results will be written to this filename
         String FILENAME = "ACPC_SimFSS_"
                 + MAX_REVOCATIONS + "+" + REVOCATION_STEP
